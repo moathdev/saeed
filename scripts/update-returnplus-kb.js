@@ -11,8 +11,8 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-const MOATHDEV_BOT = '7974988787:AAGDA6e1iwJdg-BW4GQje8XoDKWMK7bctLc';
-const CHAT_ID = '178374935';
+const MOATHDEV_BOT = 'token_xxxx';
+const CHAT_ID = 'token_xxxx';
 const REPO_DIR = '/tmp/ObsidianRetrunPlus-update';
 const REPO_URL = 'https://github.com/moathdev/ObsidianRetrunPlus.git';
 const SALLA_URL = 'https://apps.salla.sa/ar/app/134555705';
