@@ -10,15 +10,15 @@
 
 ## Projects & Context
 - **Discord Server:** Aone HQ (ID: 1214537887228629042).
-- **Discord User ID أبو سطام:** 274145062693109761
+- **Discord User ID أبو سطام:** token_xxxx
 - **Daily Tasks:**
   - تقرير يومي عن الثريدات المفتوحة في ديسكورد (الساعة 10 صباحاً).
 
 ## واتساب - أرقام مهمة
-- **أم سطام:** 966594138536@c.us (pushname: Norah) — دائماً استخدم @c.us
-- **عماد كمال جووي:** 966501566199@c.us
-- **إبراهيم:** 966547997816
-- **حساب الواتساب الرئيسي:** Muath Aljehani — 966545554999
+- **أم سطام:** token_xxxx@c.us (pushname: Norah) — دائماً استخدم @c.us
+- **عماد كمال جووي:** token_xxxx@c.us
+- **إبراهيم:** token_xxxx
+- **حساب الواتساب الرئيسي:** Muath Aljehani — token_xxxx
 
 ## مشروع ReturnPlus - Knowledge Base
 
@@ -52,9 +52,9 @@
 - **⚠️ مهم — Obsidian:** الـ repo هو Obsidian vault. المراجعة تتم عبر Obsidian. يجب أن تكون جميع الملفات متوافقة مع Obsidian Markdown (روابط داخلية [[...]]، frontmatter، إلخ عند الحاجة).
 
 ## Telegram Bots
-- **@salehdevks_bot** — Token: `8138016964:AAE7DTHQtW_P-R1smPEEClonG6-kzMMQS2o` → هذا هو البوت المتصل بـ OpenClaw (الفعّال)
-- **@moathdev_bot** — Token: `7974988787:AAGDA6e1iwJdg-BW4GQje8XoDKWMK7bctLc` → بوت ReturnPlus KB
-- **Abu Sattam Telegram Chat ID:** `178374935`
+- **@salehdevks_bot** — Token: `token_xxxx` → هذا هو البوت المتصل بـ OpenClaw (الفعّال)
+- **@moathdev_bot** — Token: `token_xxxx` → بوت ReturnPlus KB
+- **Abu Sattam Telegram Chat ID:** `token_xxxx`
 - **Use case for KB drafts:** إرسال مسودات ReturnPlus KB عبر @moathdev_bot (مؤكد)
 
 ## تقنية - ملاحظات
