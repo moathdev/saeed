@@ -15,8 +15,8 @@
   - تقرير يومي عن الثريدات المفتوحة في ديسكورد (الساعة 10 صباحاً).
 
 ## واتساب - أرقام مهمة
-- **أم سطام:** token_xxxx@c.us (pushname: Norah) — دائماً استخدم @c.us
-- **عماد كمال جووي:** token_xxxx@c.us
+- **أم سطام:** token_xxxx (pushname: Norah) — دائماً استخدم @c.us
+- **عماد كمال جووي:** token_xxxx
 - **إبراهيم:** token_xxxx
 - **حساب الواتساب الرئيسي:** Muath Aljehani — token_xxxx
 
