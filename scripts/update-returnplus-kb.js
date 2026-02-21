@@ -39,7 +39,7 @@ async function scrapeWithPlaywright() {
   try {
     // --- Salla ---
     const sallaPage = await browser.newPage();
-    await sallaPage.goto(SALLA_URL, { waitUntil: 'networkidle', timeout: 30000 });
+    await sallaPage.goto(SALLA_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
     await new Promise(r => setTimeout(r, 3000));
     results.salla = await sallaPage.evaluate(() => {
       const text = document.body.innerText;
@@ -61,7 +61,7 @@ async function scrapeWithPlaywright() {
 
     // --- ZID ---
     const zidPage = await browser.newPage();
-    await zidPage.goto(ZID_URL, { waitUntil: 'networkidle', timeout: 30000 });
+    await zidPage.goto(ZID_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
     await new Promise(r => setTimeout(r, 5000));
     results.zid = await zidPage.evaluate(() => {
       const text = document.body.innerText;
