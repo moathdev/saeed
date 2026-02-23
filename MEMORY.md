@@ -82,6 +82,10 @@
 - **Abu Sattam Telegram Chat ID:** `token_xxxx`
 - **Use case for KB drafts:** إرسال مسودات ReturnPlus KB عبر @moathdev_bot (مؤكد)
 
+## GitHub
+- **Token:** `token_xxxx` (moathdev) — stored in `/root/.netrc`
+- **ReturnPlus repo:** https://github.com/NIT-sa/ReturnPlus (private)
+
 ## تقنية - ملاحظات
 - **⚠️ NO GATEWAY RESTARTS** — running inside a container; restart = Pod crash/termination. Abu Sattam handles gateway config changes manually.
 - **Reply in English always** — do NOT reply in Arabic unless Abu Sattam explicitly writes in Arabic. Preference saved in SOUL.md.
