@@ -86,6 +86,9 @@
 - **Token:** `token_xxxx` (moathdev) — stored in `/root/.netrc`
 - **ReturnPlus repo:** https://github.com/NIT-sa/ReturnPlus (private)
 
+## قواعد مهمة من أبو سطام
+- **⚠️ لا تحذف أي ملف** بدون إخباره أولاً — حتى لو كان فارغاً أو بيانات غريبة. اعرض ما ستحذفه وانتظر الموافقة.
+
 ## تقنية - ملاحظات
 - **⚠️ NO GATEWAY RESTARTS** — running inside a container; restart = Pod crash/termination. Abu Sattam handles gateway config changes manually.
 - **Reply in English always** — do NOT reply in Arabic unless Abu Sattam explicitly writes in Arabic. Preference saved in SOUL.md.
