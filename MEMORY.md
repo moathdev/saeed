@@ -35,6 +35,17 @@
 - **إبراهيم:** token_xxxx
 - **حساب الواتساب الرئيسي:** Muath Aljehani — token_xxxx
 
+## مشروع تهادوا تحابوا (Tahadou)
+- **Repo:** https://github.com/moathdev/Tahadou (private, moathdev)
+- **Stack:** Laravel 11 / MySQL / Blade + Tailwind CDN
+- **اللغة:** عربي افتراضي (RTL) + إنجليزي، switcher في كل صفحة
+- **المميزات الرئيسية:** إنشاء مجموعة، تسجيل مشتركين، قرعة Circular Permutation، إرسال واتساب مباشر لكل مشترك من لوحة المشرف
+- **حد سعر الهدية:** حقل اختياري `max_gift_price` يظهر في الصفحات والرسالة
+- **WhatsApp flow:** بعد القرعة، زر لكل مشترك في اللوحة يفتح واتساب برسالة جاهزة
+- **localStorage:** تتبع "تم الإرسال" لكل مجموعة بمفتاح `wa_sent_{uuid}`
+- **Footer ثابت:** تهادوا تحابوا © — Muath Aljohani / moath.co
+- **آخر push:** 2026-03-01 — README English only
+
 ## شركة NIT - معلومات عامة
 
 - **الاسم التجاري:** NIT
