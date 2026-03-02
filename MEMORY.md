@@ -36,15 +36,27 @@
 - **حساب الواتساب الرئيسي:** Muath Aljehani — token_xxxx
 
 ## مشروع تهادوا تحابوا (Tahadou)
-- **Repo:** https://github.com/moathdev/Tahadou (private, moathdev)
+- **Repo:** https://github.com/moathdev/Tahadou (**Public** — مفتوح المصدر، MIT License)
+- **Live URL:** https://t.moath.co
 - **Stack:** Laravel 11 / MySQL / Blade + Tailwind CDN
-- **اللغة:** عربي افتراضي (RTL) + إنجليزي، switcher في كل صفحة
-- **المميزات الرئيسية:** إنشاء مجموعة، تسجيل مشتركين، قرعة Circular Permutation، إرسال واتساب مباشر لكل مشترك من لوحة المشرف
-- **حد سعر الهدية:** حقل اختياري `max_gift_price` يظهر في الصفحات والرسالة
-- **WhatsApp flow:** بعد القرعة، زر لكل مشترك في اللوحة يفتح واتساب برسالة جاهزة
-- **localStorage:** تتبع "تم الإرسال" لكل مجموعة بمفتاح `wa_sent_{uuid}`
-- **Footer ثابت:** تهادوا تحابوا © — Muath Aljohani / moath.co
-- **آخر push:** 2026-03-01 — README English only
+- **يشتغل على:** Raspberry Pi (داخل السعودية فقط حالياً)
+- **اللغة:** عربي افتراضي (RTL) + إنجليزي، switcher في كل صفحة — كل النصوص مترجمة بالكامل بما فيها رسالة الواتساب والـ footer
+- **Git config:**
+  - `user.name` = `Muath Aljohani`
+  - `user.email` = `a@moath.co` ← الإيميل الأساسي لحساب GitHub
+  - **مهم:** دائماً استخدم هذا الإيميل في git config عند العمل على الـ repo
+- **Branch Protection:** مفعّل على `main` — أي contributor يحتاج PR + موافقة أبو سطام
+- **المميزات الرئيسية:**
+  - إنشاء مجموعة، تسجيل مشتركين (رقم الهاتف يقبل تكرار — للأم تسجّل أطفالها)
+  - قرعة Circular Permutation (لا أحد يسحب نفسه)
+  - إرسال واتساب مباشر لكل مشترك من لوحة المشرف (AR/EN حسب اللغة)
+  - حقل اختياري `max_gift_price`
+  - قسم الحديث النبوي في الصفحة الرئيسية (AR/EN)
+  - SEO meta tags + Open Graph + Twitter Card
+  - PRG pattern على إنشاء المجموعة (لا تكرار عند refresh)
+- **localStorage:** تتبع "تم الإرسال" بمفتاح `wa_sent_{uuid}`
+- **لا يوجد:** Excel export (محذوف)، WhatsApp API keys (محذوفة)
+- **آخر push:** 2026-03-01
 
 ## شركة NIT - معلومات عامة
 
@@ -98,6 +110,7 @@
 - **ReturnPlus repo:** https://github.com/NIT-sa/ReturnPlus (private)
 
 ## قواعد مهمة من أبو سطام
+- **⚠️ PRs بالإنجليزي دائماً** — العنوان، الوصف، كل شيء. لا عربي أبداً في GitHub PRs/commits.
 - **⚠️ لا تحذف أي ملف** بدون إخباره أولاً — حتى لو كان فارغاً أو بيانات غريبة. اعرض ما ستحذفه وانتظر الموافقة.
 
 ## تقنية - ملاحظات
